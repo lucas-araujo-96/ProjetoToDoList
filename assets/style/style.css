@@ -1,14 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
 body {
     font-family: sans-serif;
+    background-color: #F1FAEE; 
+    font-family: 'Inconsolata', monospace;
+    font-weight: 600;
+}
+.botao {
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    padding: 3px;
+    color: #fff;
 }
 .divForm{
     width: 100%;
-    box-sizing: border-box;
     padding: 20px;
 }
 .formulario {
-    display: b;
     width: 60%;
+    min-height: 85vh;
     margin: 0 auto;
     text-align: center;
+    background-color: #A8DADC;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 6px;
+    border: black;
+    border-style: solid;
+    border-width: 2px;
+}
+.formulario h1 {
+    width: fit-content;
+    margin: 0 auto 15px auto;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.btnInsereTarefa {
+    background-color: #457B9D;
+}
+.lstTarefas {
+    list-style: none;
+    margin-top: 20px;
+}
+.item {
+    margin-bottom: 15px;
+    line-break:auto;
+    word-break: break-all;
+    max-width: 90%;
+}
+.deletar {
+    margin-left: 15px;
+    background-color: #E63946;
 }

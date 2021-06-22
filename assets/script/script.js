@@ -8,8 +8,9 @@ function escopo() {
     function criaBotaoDeletar() {
         let btnDel = document.createElement(`input`);
         btnDel.setAttribute(`type`, `button`);
-        btnDel.setAttribute(`value`, `remover`);
+        btnDel.setAttribute(`value`, `Remover`);
         btnDel.classList.add(`deletar`);
+        btnDel.classList.add(`botao`);
         return btnDel;
     };
 
