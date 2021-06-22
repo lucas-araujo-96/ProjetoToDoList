@@ -1,0 +1,14 @@
+body {
+    font-family: sans-serif;
+}
+.divForm{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.formulario {
+    display: b;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
