@@ -53,3 +53,7 @@ body {
     margin-left: 15px;
     background-color: #E63946;
 }
+.riscado {
+    text-decoration: line-through;
+    color: #A9A9A9;
+}
